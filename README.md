@@ -6,7 +6,9 @@ scripts folder goes to home/$user/ not ~.config
 
 packages:
 (includes non configurated stuff for my own easier recall)
-yay wofi waybar wallust vesktop qt6 qt5 qbittorent pipewire wireplumber pavucontrol opentabletdriver obs-studio mpv ffmpeg kate htop hyprland fastfetch cmus cava alacritty osu-wine godot polkit-gnome grim slurp 
+yay wofi waybar qt6 qt5 pipewire wireplumber pavucontrol obs-studio mpv ffmpeg kate htop hyprland fastfetch cmus cava alacritty godot polkit-gnome grim slurp 
+
+aur: vesktop wallust qbittorent opentabletdriver osu-wine 
 
 some stuff is probably missing from this ^, meant to be mostly minimal for transporting configs to my work laptop
 
