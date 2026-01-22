@@ -1,0 +1,14 @@
+window {
+  background-color: #171719;
+  color: #F4F5F1;
+  border: 2px solid #91897D;
+}
+
+#entry {
+  padding: 8px;
+}
+
+#entry:selected {
+  background-color: #91897D;
+  color: #171719;
+}

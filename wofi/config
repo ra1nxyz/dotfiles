@@ -1,0 +1,15 @@
+key_up=Control_L-p
+key_down=Control_L-n
+term=alacritty
+
+width=600
+height=300
+location=center
+show=drun
+prompt=Apps
+filter_rate=100
+allow_markup=true
+no_actions=true
+orientation=vertical
+insensitive=true
+gtk_dark=true

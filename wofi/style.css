@@ -1,0 +1,56 @@
+@import "/home/bug/.config/wofi/colors.css";
+
+window {
+    background-color: var(--background);
+    color: var(--foreground);
+    border: 1px solid var(--color0);
+    padding: 0px;
+    font-family: "Fira Code", monospace;
+    font-size: 14px;
+    border-radius: 0px; /* NO rounded corners */
+}
+
+/* Input / search bar */
+input {
+    background-color: var(--color1); /* light gray input */
+    color: var(--foreground);
+    border: 1px solid #3b82f6; /* blue border like screenshot */
+    padding: 4px 6px;
+    margin: 0px;
+    border-radius: 0px; /* no rounded corners */
+}
+
+item:selected {
+    background-color: var(--color3); /* light gray highlight */
+    color: var(--foreground);
+    border-radius: 0px; /* no rounded corners */
+    padding-left: 6px;
+}
+
+item {
+    padding: 4px 6px;
+    border-radius: 0px; /* flat style */
+}
+
+/* Sub-items (like > Steam) */
+item.sub {
+    color: var(--color2); /* subtle grayish accent */
+    font-style: normal;
+}
+
+/* Scrollbar */
+scrollbar {
+    background-color: var(--background);
+    width: 6px;
+}
+
+scrollbar slider {
+    background-color: var(--color4);
+}
+
+
+#outer-box {
+  padding: 4px;
+  font-size: 1.1rem;
+  font-family: "JetBrains Mono";
+}

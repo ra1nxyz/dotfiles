@@ -1,0 +1,26 @@
+@define-color bg #171719;
+@define-color fg #F4F5F1;
+
+@define-color black #3E3E40;
+@define-color red #151621;
+@define-color green #574A3A;
+@define-color yellow #705E80;
+@define-color blue #91897D;
+@define-color magenta #DFB1BB;
+@define-color cyan #DFE2D6;
+@define-color white #E7E8E2;
+
+* {
+  background: @bg;
+  color: @fg;
+}
+
+#waybar {
+  background-color: @bg;
+  color: @fg;
+}
+
+#workspaces button.focused {
+  background: @blue;
+  color: @bg;
+}

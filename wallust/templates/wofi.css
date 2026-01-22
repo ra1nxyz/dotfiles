@@ -1,0 +1,14 @@
+window {
+  background-color: {{background}};
+  color: {{foreground}};
+  border: 2px solid {{color4}};
+}
+
+#entry {
+  padding: 8px;
+}
+
+#entry:selected {
+  background-color: {{color4}};
+  color: {{background}};
+}

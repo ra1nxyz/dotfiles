@@ -1,0 +1,94 @@
+{
+  "Revision": "0.6.6.2",
+  "Profiles": [
+    {
+      "Tablet": "Wacom CTL-472",
+      "OutputMode": {
+        "Path": "OpenTabletDriver.Desktop.Output.LinuxArtistMode",
+        "Settings": [],
+        "Enable": true
+      },
+      "Filters": [],
+      "AbsoluteModeSettings": {
+        "Display": {
+          "Width": 4480.0,
+          "Height": 1440.0,
+          "X": 2240.0,
+          "Y": 720.0,
+          "Rotation": 0.0
+        },
+        "Tablet": {
+          "Width": 75.0,
+          "Height": 55.0,
+          "X": 76.0,
+          "Y": 47.5,
+          "Rotation": 0.0
+        },
+        "EnableClipping": true,
+        "EnableAreaLimiting": false,
+        "LockAspectRatio": false
+      },
+      "RelativeModeSettings": {
+        "XSensitivity": 10.0,
+        "YSensitivity": 10.0,
+        "RelativeRotation": 0.0,
+        "RelativeResetDelay": "00:00:00.1000000"
+      },
+      "Bindings": {
+        "TipActivationThreshold": 1.0,
+        "TipButton": {
+          "Path": "OpenTabletDriver.Desktop.Binding.AdaptiveBinding",
+          "Settings": [
+            {
+              "Property": "Binding",
+              "Value": "Tip"
+            }
+          ],
+          "Enable": true
+        },
+        "EraserActivationThreshold": 1.0,
+        "EraserButton": {
+          "Path": "OpenTabletDriver.Desktop.Binding.AdaptiveBinding",
+          "Settings": [
+            {
+              "Property": "Binding",
+              "Value": "Eraser"
+            }
+          ],
+          "Enable": true
+        },
+        "PenButtons": [
+          {
+            "Path": "OpenTabletDriver.Desktop.Binding.AdaptiveBinding",
+            "Settings": [
+              {
+                "Property": "Binding",
+                "Value": "Button 1"
+              }
+            ],
+            "Enable": true
+          },
+          {
+            "Path": "OpenTabletDriver.Desktop.Binding.AdaptiveBinding",
+            "Settings": [
+              {
+                "Property": "Binding",
+                "Value": "Button 2"
+              }
+            ],
+            "Enable": true
+          }
+        ],
+        "AuxButtons": [],
+        "MouseButtons": [],
+        "MouseScrollUp": null,
+        "MouseScrollDown": null,
+        "DisablePressure": false,
+        "DisableTilt": false
+      }
+    }
+  ],
+  "LockUsableAreaDisplay": false,
+  "LockUsableAreaTablet": true,
+  "Tools": []
+}

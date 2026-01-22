@@ -1,0 +1,10 @@
+{
+  "color": {
+    "logo": "#{{color4}}",        // primary accent
+    "title": "#{{color4}}",       // same accent for titles
+    "keys": "#{{color6}}",        // secondary accent
+    "separator": "#{{color1}}",   // minor accent for dividers
+    "text": "#{{foreground}}",    // main text
+    "background": "#{{background}}" // optional if your terminal supports bg coloring
+  }
+}
