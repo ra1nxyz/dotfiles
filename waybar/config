@@ -4,9 +4,9 @@
     "height": 34, // Waybar height (to be removed for auto height)
     // "width": 1280, // Waybar width
     "spacing": 4, // Gaps between modules (4px)
-    "modules-left": ["hyprland/workspaces", "idle_inhibitor", "backlight", "custom/updates"],
-    "modules-center": ["hyprland/window"],
-    "modules-right": ["hyprland/submap", "battery", "pulseaudio", "tray", "clock"],
+    "modules-left": ["hyprland/workspaces", "custom/updates"],
+    "modules-center": ["mpris"],
+    "modules-right": ["hyprland/submap", "pulseaudio", "tray", "clock"],
     // Modules configuration
      "hyprland/workspaces": {
          "disable-scroll": true,
@@ -54,38 +54,16 @@
         "tooltip": true,
         "tooltip-format": "{app}: {title}"
     },
-    "mpd": {
-        "format": "{stateIcon} {consumeIcon}{randomIcon}{repeatIcon}{singleIcon}{artist} - {album} - {title} ({elapsedTime:%M:%S}/{totalTime:%M:%S}) ⸨{songPosition}|{queueLength}⸩ {volume}% ",
-        "format-disconnected": "Disconnected ",
-        "format-stopped": "{consumeIcon}{randomIcon}{repeatIcon}{singleIcon}Stopped ",
-        "unknown-tag": "N/A",
-        "interval": 2,
-        "consume-icons": {
-            "on": " "
-        },
-        "random-icons": {
-            "off": "<span color=\"#f53c3c\"></span> ",
-            "on": " "
-        },
-        "repeat-icons": {
-            "on": " "
-        },
-        "single-icons": {
-            "on": "1 "
-        },
-        "state-icons": {
-            "paused": "",
-            "playing": ""
-        },
-        "tooltip-format": "MPD (connected)",
-        "tooltip-format-disconnected": "MPD (disconnected)"
-    },
-    "idle_inhibitor": {
-        "format": "{icon}",
-        "format-icons": {
-            "activated": "",
-            "deactivated": ""
-        }
+    "mpris": {
+	"format": "{player_icon} {title} - {artist}",
+	"format-paused": "⏸ {title} {artist}",
+	"player-icons": {
+		"default": ""
+	},
+	"max-length": 40,
+	"on-click": "playerctl play-pause",
+	"on-scroll-up": "playerctl next",
+	"on-scroll-down": "playerctl previous"
     },
     "tray": {
         // "icon-size": 21,
@@ -124,7 +102,7 @@
         "format-bluetooth": "{volume}% {icon} {format_source}",
         "format-bluetooth-muted": " {icon} {format_source}",
         "format-muted": " {format_source}",
-        "format-source": "{volume}% ",
+        "format-source": "{volume}%",
         "format-source-muted": "",
         "format-icons": {
             "headphone": "",

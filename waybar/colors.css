@@ -1,14 +1,14 @@
-@define-color bg #171719;
-@define-color fg #F4F5F1;
+@define-color bg #2C2C33;
+@define-color fg #F4E2DA;
 
-@define-color black #3E3E40;
-@define-color red #151621;
-@define-color green #574A3A;
-@define-color yellow #705E80;
-@define-color blue #91897D;
-@define-color magenta #DFB1BB;
-@define-color cyan #DFE2D6;
-@define-color white #E7E8E2;
+@define-color black #515158;
+@define-color red #262A4B;
+@define-color green #415160;
+@define-color yellow #746E77;
+@define-color blue #7C97AC;
+@define-color magenta #A09795;
+@define-color cyan #DFAD95;
+@define-color white #E7CEC2;
 
 * {
   background: @bg;

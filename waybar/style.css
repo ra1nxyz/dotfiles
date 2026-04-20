@@ -6,9 +6,9 @@
 }
 
 #waybar {
-	font-family: 'Source Code Pro', sans-serif;
-	font-size: 1.2em;
-	font-weight: 400;
+	font-family: 'JetBrainsMono Nerd Font Mono', sans-serif;
+	font-size: 1.1em;
+	font-weight: 300;
   color: @base04;
   background: @base01;
 }
@@ -70,10 +70,6 @@
   margin-left: 0px;
   margin-right: 4px;
   background-color: transparent;
-}
-
-#temperature.critical {
-  color: @base0F;
 }
 
 #window {
