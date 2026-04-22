@@ -49,3 +49,5 @@ waybar = { template = 'waybar.css', target = "~/.config/waybar/colors.css" }
 wofi = { template = 'wofi.css', target = "~/.config/wofi/colors.css" }
 alacritty = { template = 'alacritty.toml', target = "~/.config/alacritty/colors.toml" }
 fastfetch = { template = 'fastfetch.jsonc', target = "~/.config/fastfetch/colors.jsonc " } 
+kitty = { src = "kitty.conf", dst = "~/.config/kitty/colors.conf" }
+yazi = { src = "yazi.toml", dst = "~/.config/yazi/theme.toml" }
