@@ -6,7 +6,7 @@ scripts folder goes to home/$user/ not ~.config
 
 packages:
 (includes non configurated stuff for my own easier recall)
-yay wofi waybar qt6 qt5 pipewire wireplumber pavucontrol obs-studio mpv ffmpeg kate htop hyprland fastfetch cmus cava alacritty godot polkit-gnome grim slurp playerctl
+yay wofi waybar qt6 qt5 pipewire wireplumber pavucontrol obs-studio mpv ffmpeg kate htop hyprland fastfetch rmpc mpd cava alacritty godot polkit-gnome grim slurp playerctl kitty
 
 aur: vesktop wallust qbittorent opentabletdriver osu-wine 
 
@@ -14,3 +14,4 @@ some stuff is probably missing from this ^, meant to be mostly minimal for trans
 
 since no fine tuned script installer, i recommend only applying configs once within an environment through a graphical file browser one by one
 
+a more complete package list is available from pkglist.txt however is not necessary, idk if packages listed above are everything though
