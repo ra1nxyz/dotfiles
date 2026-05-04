@@ -167,3 +167,5 @@ yay-debug 12.5.3-1
 yazi 26.1.22-4
 zip 3.0-11
 zoxide 0.9.9-2
+mpdris2
+mpd-discord-rpc
