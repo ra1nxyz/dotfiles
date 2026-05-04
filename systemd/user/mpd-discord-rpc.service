@@ -1,0 +1,12 @@
+[Unit]
+Description=Discord Rich Presence for MPD
+Documentation=https://github.com/JakeStanger/mpd-discord-rpc
+
+[Service]
+Type=simple
+Restart=on-failure
+RestartSec=5
+ExecStart=/usr/bin/mpd-discord-rpc
+
+[Install]
+WantedBy=mpd.service
